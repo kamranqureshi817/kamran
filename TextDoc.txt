@@ -1,0 +1,57 @@
+Java Program--------
+Code
+Compile 
+build
+test
+deploy
+
+
+
+CI
+developers
+code
+repository
+CI
+
+
+
+Developer checks in the code----->Build----->Tests----->Deployment
+
+
+
+
+
+
+
+1. Root
+sudo su -
+2. yum install java-1.8*
+3. find /usr/lib/jvm/java-1.8* | head -n 3
+copy the path 
+vi  .bash_profile
+JAVA_HOME=PATH
+PATH:$JAVA_HOME
+
+
+
+:wq---save the file
+
+Jenkins download
+
+2 commands
+yum install jenkins
+service jenkins status
+service jenkins start
+sevice jenkins stop
+
+
+
+
+login into jenkins using Public ip:8080
+get the password from the path
+
+cat -------------Path
+
+
+in admin---make sure you change the password
+and then give the JDK path
